@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0fff4;
+  color: #1a202c;
+}
+
+h1, h2 {
+  color: #276749;
+}
+
+a {
+  color: #38a169;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #38a169, #276749);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.4);
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.content h1 span {
+  color: #9ae6b4;
+}
+
+.buttons a {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #9ae6b4;
+  color: #1a202c;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.project-card {
+  background: #e6fffa;
+  padding: 20px;
+  border: 1px solid #b2f5ea;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.project-card h2 {
+  color: #2f855a;
+}
